@@ -5,13 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homepage</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <style>
+      nav {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        background-color: darkolivegreen;
+        padding: 1em;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000; 
+      }
+  
+      nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.2em;
+        padding: 0.5em 1em;
+        border-radius: 5px;
+      }
+  
+      nav a:hover {
+        background-color: #6b8e23;
+      }
+
+      body {
+        margin: 0;
+        font-family: 'Times New Roman', Times, serif;
+        background-image: url('background.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        color: #333;
+        padding-top: 4em; 
+      }
+  
+      h3 {
+        text-align: center;
+        margin-top: 1em;
+        font-size: 2.5em;
+      }
+  
+      p {
+        text-align: center;
+        font-size: 1.2em;
+        margin: 0 auto;
+        width: 80%; 
+      }
+    </style>
+
   </head>
   <body>
-    <h3>Shopping at Northwind</h3>
-    <div>
+    <nav>
       <a class="nav-link active" target="_blank" aria-current="page" href="index.html">Home</a>
       <a class="nav-link active" target="_blank" aria-current="page" href="products.html">Products</a>
-    </div>
+    </nav>
+    <h3>Shopping at Northwind</h3>  
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium accusantium, fugit rerum quidem obcaecati,
       perspiciatis doloribus repellat iure iusto ut eum architecto! Porro deleniti est nihil eos optio, explicabo at!
