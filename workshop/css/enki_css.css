@@ -1,0 +1,26 @@
+
+body {
+    background-color: #97baa28f;
+} 
+body.NorthwindIcon {
+    width: 20px; 
+    height: 20px; 
+    transform-origin: center center;
+    object-fit: cover; 
+  }
+
+.border-container {
+    background-color: #637b6b9e;      
+}
+a {
+    color: black;
+}
+
+a:hover, a:focus {
+    color: black;
+}
+
+body.header-container {
+    text-align: center; 
+    position: relative; 
+}
